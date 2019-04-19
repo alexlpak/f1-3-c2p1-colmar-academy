@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.shadow-small {
+  position: relative;
+  top: 0;
+  transition: top 0.1s ease, box-shadow 0.2s ease;
+}
+
+.shadow-small:hover {
+  transition: top 0.1s ease, box-shadow 0.2s ease;
+  top: -.15rem;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.shadow-large {
+  position: relative;
+  top: 0;
+  transition: top 0.1s ease, box-shadow 0.2s ease;
+}
+
+.shadow-large:hover {
+  transition: top 0.1s ease, box-shadow 0.2s ease;
+  top: -.2rem;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #24A7E4;
+  transition: color 0.2s ease;
+}
+
+/* Mobile Sizing */
+@media only screen and (max-width: 738px) {
+  .shadow-small:hover {
+    transition: 0;
+    top: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  .shadow-large:hover {
+    transition: 0;
+    top: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}

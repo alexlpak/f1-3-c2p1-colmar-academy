@@ -1,0 +1,24 @@
+/* Flex Styles */
+.flex-container {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}

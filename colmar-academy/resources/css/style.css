@@ -1,0 +1,327 @@
+/* Global Styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.2;
+  color: #01171F;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.4;
+  font-size: .95rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+span {
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 60rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  width: 100%;
+  background-color: #01171F;
+  position: fixed;
+  z-index: 1;
+}
+
+header .container {
+  box-sizing: border-box;
+  height: 4rem;
+  padding: 0 1.5rem;
+}
+
+/* Logo */
+.logo {
+  height: 2rem;
+}
+
+.logo span {
+  font-size: 1.3rem;
+}
+
+.logo img {
+  height: 2.7rem;
+}
+
+.logo-text span:first-child {
+  color: white;
+  font-weight: bold;
+}
+
+.logo-text span:last-child {
+  color: #24A7E4;
+}
+
+nav li {
+  display: inline;
+  margin-left: 1rem;
+}
+
+nav a {
+  color: white;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Banner */
+.billboard {
+  background-color: #24A7E4;
+}
+
+.header-offset {
+  padding-top: 4rem;
+}
+
+.billboard.flex-container {
+  align-items: flex-start;
+}
+
+.billboard .banner {
+  padding: 2rem 1.5rem;
+  max-width: 60%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.banner-container {
+  width: 100%;
+}
+
+.banner-text {
+  color: white;
+  max-width: 30%;
+}
+
+.banner-text h3 {
+  margin: 1.5rem 0;
+  line-height: 1.6;
+}
+
+.button {
+  background-color: #063357;
+  color: white;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+/* Campus */
+.campus .headline {
+  padding: 2rem 1.5rem;
+  max-width: 60%;
+  box-sizing: border-box;
+}
+
+.campus {
+  background-color: white;
+}
+
+/* Campus - Headline */
+.headline-image {
+  align-items: center;
+}
+
+.headline-image img {
+  margin-bottom: 2rem;
+}
+
+.headline-text h1 {
+  margin-bottom: 1.5rem;
+  color: #24A7E4;
+}
+
+.headline-text a {
+  color: #24A7E4;
+}
+
+.headline-text p {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Campus - Info */
+.campus .info {
+  max-width: 40%;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  border-left: 1px solid #e8e8e8;
+}
+
+/* Campus - Info - Outer Container Format */
+.article {
+  padding: 1rem 1rem;
+  align-items: center;
+}
+
+.article-text h2 {
+  color: #063357;
+}
+
+.campus .info .article:last-child {
+  background-color: #24A7E4;
+  color: white;
+}
+
+.campus .info .article:last-child a {
+  color: #01171F;
+}
+
+.campus .info .article:first-child {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* Campus - Info */
+.article-image {
+  max-width: 35%;
+  margin-right: 1rem;
+}
+
+.info p {
+  margin: .5rem 0;
+}
+
+.more {
+  color: #24A7E4;
+}
+
+/* Learning - General*/
+.learning {
+  padding: 2rem 3.5rem;
+  background-color: #24A7E4;
+}
+
+.learning h1 {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+/* Learning - Courses*/
+.courses {
+  width: 100%;
+}
+
+/* Learning - Course*/
+.course {
+  background-color: white;
+  margin: 1rem;
+  max-width: 28%;
+}
+
+.course-image img {
+  margin-bottom: 1rem;
+}
+
+.course-text {
+  padding: 0 1rem;
+  background-color: white;
+}
+
+.course-text h2 {
+  margin-bottom: .5rem;
+  color: #24A7E4;
+}
+.course-text span {
+  margin-bottom: .5rem;
+  color: gray;
+}
+.course-text p {
+  margin-bottom: 1.5rem;
+  color: #01171F;
+}
+
+/* Thesis Section */
+.thesis-container {
+  background-color: white;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 2rem 0;
+}
+
+.thesis-container h1 {
+  margin-bottom: 2rem;
+  color: #063357;
+}
+
+.headline-image video {
+  margin-bottom: 1.5rem;
+}
+
+.thesis .headline h2 {
+  margin-bottom: .5rem;
+  color: #24A7E4;
+}
+
+.thesis .article:last-child h2 {
+  color: #063357;
+}
+
+.thesis {
+  width: 100%;
+}
+
+.thesis .headline {
+  padding: 0 1.5rem;
+  max-width: 60%;
+  box-sizing: border-box;
+}
+
+/* Thesis - Info */
+.thesis .info {
+  max-width: 40%;
+  box-sizing: border-box;
+}
+
+.thesis .info .article:first-child {
+  color: white;
+  background-color: #24A7E4;
+}
+
+/* Footer */
+footer {
+  background-color: #01171F;
+  color: white;
+  padding: 1rem 1.5rem;
+}
+
+footer a {
+  color: #24A7E4;
+}
+
+#copyright {
+  color: #24A7E4;
+}
